@@ -18,6 +18,8 @@
 
 A hexabyte plugin for displaying additional file info.
 
+This plugin uses the [python-magic](https://github.com/ahupp/python-magic) package to provide robust file type details when possible.
+
 ## User
 
 ### Install
