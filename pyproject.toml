@@ -2,7 +2,7 @@
 name = "hexabyte_extended_info"
 version = "0.1.0rc0"
 description = "An extended info plugin for the hexabyte hex editor."
-keywords = ["commandline", "hexabyte", "hexeditor", "binary", "plugin", "fileinfo"]
+keywords = ["commandline", "hexabyte", "hexeditor", "binary", "plugin", "fileinfo","file", "libmagic"]
 repository = "https://github.com/thetacom/hexabyte_extended_info"
 authors = ["Justin C <justin@thetacom.info>"]
 readme = "docs/README.md"
