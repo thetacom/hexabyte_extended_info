@@ -1,17 +1,17 @@
 # Hexabyte Extended Info Plugin
 
-[![Version](https://img.shields.io/pypi/v/hexabyte-extended-info.svg)](https://pypi.python.org/pypi/hexabyte-extended-info)
-[![Status](https://img.shields.io/pypi/status/hexabyte-extended-info)](https://pypi.python.org/pypi/hexabyte-extended-info)
-[![Wheel](https://img.shields.io/pypi/wheel/hexabyte-extended-info)](https://pypi.org/project/hexabyte-extended-info/)
-[![Downloads](https://img.shields.io/pypi/dm/hexabyte-extended-info)](https://pypi.python.org/pypi/hexabyte-extended-info)
-[![License](https://img.shields.io/pypi/l/hexabyte-extended-info.svg)](https://pypi.python.org/pypi/hexabyte-extended-info)
-[![Python Implementation](https://img.shields.io/pypi/implementation/hexabyte-extended-info)](https://pypi.org/project/hexabyte-extended-info/)
-[![Python Version](https://img.shields.io/pypi/pyversions/hexabyte-extended-info)](https://pypi.org/project/hexabyte-extended-info/)
+[![Version](https://img.shields.io/pypi/v/hexabyte_extended_info.svg)](https://pypi.python.org/pypi/hexabyte_extended_info)
+[![Status](https://img.shields.io/pypi/status/hexabyte_extended_info)](https://pypi.python.org/pypi/hexabyte_extended_info)
+[![Wheel](https://img.shields.io/pypi/wheel/hexabyte_extended_info)](https://pypi.org/project/hexabyte_extended_info/)
+[![Downloads](https://img.shields.io/pypi/dm/hexabyte_extended_info)](https://pypi.python.org/pypi/hexabyte_extended_info)
+[![License](https://img.shields.io/pypi/l/hexabyte_extended_info.svg)](https://pypi.python.org/pypi/hexabyte_extended_info)
+[![Python Implementation](https://img.shields.io/pypi/implementation/hexabyte_extended_info)](https://pypi.org/project/hexabyte_extended_info/)
+[![Python Version](https://img.shields.io/pypi/pyversions/hexabyte_extended_info)](https://pypi.org/project/hexabyte_extended_info/)
 
-[![Lint](https://github.com/thetacom/hexabyte-extended-info/actions/workflows/lint.yml/badge.svg)](https://github.com/thetacom/hexabyte-extended-info/actions/)
-[![Test](https://github.com/thetacom/hexabyte-extended-info/actions/workflows/test.yml/badge.svg)](https://github.com/thetacom/hexabyte-extended-info/actions/)
-[![Release](https://github.com/thetacom/hexabyte-extended-info/actions/workflows/release.yml/badge.svg)](https://github.com/thetacom/hexabyte-extended-info/actions/)
-[![Publish](https://github.com/thetacom/hexabyte-extended-info/actions/workflows/publish.yml/badge.svg)](https://github.com/thetacom/hexabyte-extended-info/actions/)
+[![Lint](https://github.com/thetacom/hexabyte_extended_info/actions/workflows/lint.yml/badge.svg)](https://github.com/thetacom/hexabyte_extended_info/actions/)
+[![Test](https://github.com/thetacom/hexabyte_extended_info/actions/workflows/test.yml/badge.svg)](https://github.com/thetacom/hexabyte_extended_info/actions/)
+[![Release](https://github.com/thetacom/hexabyte_extended_info/actions/workflows/release.yml/badge.svg)](https://github.com/thetacom/hexabyte_extended_info/actions/)
+[![Publish](https://github.com/thetacom/hexabyte_extended_info/actions/workflows/publish.yml/badge.svg)](https://github.com/thetacom/hexabyte_extended_info/actions/)
 
 [![Pre-Commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v1.json)](https://github.com/charliermarsh/ruff)
@@ -23,14 +23,14 @@ A hexabyte plugin for displaying additional file info.
 ### Install
 
 ```bash
-~/$ pip install hexabyte-extended-info
+~/$ pip install hexabyte_extended_info
 ...
 ```
 
-Add `hexabyte-extended-info` to the plugins list inside your hexabyte config (`~/.config/hexabyte/config.toml`).
+Add `hexabyte_extended_info` to the plugins list inside your hexabyte config (`~/.config/hexabyte/config.toml`).
 
 ```toml
-plugins = [ "hexabyte-extended-info",]
+plugins = [ "hexabyte_extended_info",]
 ```
 
 ## x86_64 Hello World
@@ -56,16 +56,16 @@ Extended Info Panel
 ## Developer
 
 ```bash
-~/$ git clone https://github.com/thetacom/hexabyte-extended-info
+~/$ git clone https://github.com/thetacom/hexabyte_extended_info
 ...
 ~/$ cd hexabyte
-hexabyte-extended-info/$ poetry install
+hexabyte_extended_info/$ poetry install
 ...
 ```
 
 ### Test
 
 ```bash
-hexabyte-extended-info/$ make test
+hexabyte_extended_info/$ make test
 ...
 ```

@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "hexabyte-extended-info"
+name = "hexabyte_extended_info"
 version = "0.1.0rc0"
 description = "An extended info plugin for the hexabyte hex editor."
 keywords = ["commandline", "hexabyte", "hexeditor", "binary", "plugin", "fileinfo"]
-repository = "https://github.com/thetacom/hexabyte-extended-info"
+repository = "https://github.com/thetacom/hexabyte_extended_info"
 authors = ["Justin C <justin@thetacom.info>"]
 readme = "docs/README.md"
 classifiers = [
@@ -25,11 +25,11 @@ classifiers = [
     "Topic :: Software Development",
     "Topic :: Utilities",
 ]
-packages = [{ include = 'hexabyte-extended-info' }]
+packages = [{ include = 'hexabyte_extended_info' }]
 
 [tool.poetry.dependencies]
 python       = "^3.10"
-hexabyte      = "^0.6.0rc0"
+hexabyte     = "^0.6.0rc0"
 python-magic = "^0.4.27"
 
 [tool.poetry.group.dev.dependencies]
@@ -73,7 +73,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 
 [tool.bandit]
-targets      = ["hexabyte-extended-info"]
+targets      = ["hexabyte_extended_info"]
 skips        = []
 exclude_dirs = ["docs", "tests"]
 
@@ -82,12 +82,12 @@ line-length    = 120
 target-version = ['py310']
 
 [tool.coverage.run]
-source = ['hexabyte-extended-info']
+source = ['hexabyte_extended_info']
 
 [tool.isort]
 py_version  = 310
 profile     = "black"
-src_paths   = ["hexabyte-extended-info", "tests"]
+src_paths   = ["hexabyte_extended_info", "tests"]
 line_length = 120
 
 [tool.pydocstringformatter]
@@ -253,7 +253,7 @@ redefining-builtins-modules = [
 ]
 
 [tool.pyright]
-include = ["hexabyte-extended-info"]
+include = ["hexabyte_extended_info"]
 exclude = ["docs", "**/__pycache__"]
 venv    = ".venv"
 
