@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexabyte_extended_info"
-version = "0.1.0-rc.0"
+version = "0.1.1"
 description = "An extended info plugin for the hexabyte hex editor."
 keywords = ["commandline", "hexabyte", "hexeditor", "binary", "plugin", "fileinfo","file", "libmagic"]
 repository = "https://github.com/thetacom/hexabyte_extended_info"
