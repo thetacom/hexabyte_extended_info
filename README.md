@@ -60,7 +60,7 @@ Extended Info Panel
 ```bash
 ~/$ git clone https://github.com/thetacom/hexabyte_extended_info
 ...
-~/$ cd hexabyte
+~/$ cd hexabyte_extended_info
 hexabyte_extended_info/$ poetry install
 ...
 ```
