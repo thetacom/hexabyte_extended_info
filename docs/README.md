@@ -5,7 +5,7 @@ A hexabyte plugin for displaying additional file info.
 ## Install
 
 ```bash
-~/$ pip install hexabyte_extended_info
+~/$ pip install hexabyte-extended-info
 ...
 ```
 

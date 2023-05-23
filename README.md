@@ -25,7 +25,7 @@ This plugin uses the [python-magic](https://github.com/ahupp/python-magic) packa
 ### Install
 
 ```bash
-~/$ pip install hexabyte_extended_info
+~/$ pip install hexabyte-extended-info
 ...
 ```
 
