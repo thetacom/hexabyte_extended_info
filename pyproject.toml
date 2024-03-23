@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexabyte_extended_info"
-version = "0.1.2"
+version = "0.1.3"
 description = "An extended info plugin for the hexabyte hex editor."
 keywords = ["commandline", "hexabyte", "hexeditor", "binary", "plugin", "fileinfo","file", "libmagic"]
 repository = "https://github.com/thetacom/hexabyte_extended_info"
@@ -23,6 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation :: CPython",
     "Topic :: Software Development",
     "Topic :: Utilities",
@@ -31,7 +32,7 @@ packages = [{ include = 'hexabyte_extended_info' }]
 
 [tool.poetry.dependencies]
 python       = "^3.9"
-hexabyte     = "^0.8.3"
+hexabyte     = "^0.8.7"
 python-magic = "^0.4.27"
 
 [tool.poetry.group.dev.dependencies]
